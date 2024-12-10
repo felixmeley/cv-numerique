@@ -114,6 +114,15 @@ ul li::before {
     color: #9D47BF;
 }
 
+.item {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    gap: 1em;
+}
+
 .item h3 {
     color: #9D47BF;
     margin-bottom: 0.3em;
@@ -150,5 +159,17 @@ ul li::before {
 }
 
 .project-text {
+    flex-grow: 1;
+}
+
+.education-logo {
+    max-width: 100px;   /* Ajustez la taille du logo à vos besoins */
+    height: auto;
+    object-fit: contain;
+    margin-right: 1em;  /* Espacement entre le logo et les informations */
+    border-radius: 5px; /* Facultatif pour arrondir les coins du logo */
+}
+
+.education-info {
     flex-grow: 1;
 }
