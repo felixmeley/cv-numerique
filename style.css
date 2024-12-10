@@ -19,6 +19,7 @@ body {
 }
 
 header {
+    position: relative;
     background: #9D47BF;
     color: white;
     text-align: center;
@@ -114,7 +115,7 @@ ul li::before {
     color: #9D47BF;
 }
 
-.item {
+.logo-item {
     display: flex;
     align-items: center;
     padding: 1em;
@@ -123,7 +124,7 @@ ul li::before {
     gap: 1em;
 }
 
-.item h3 {
+h3 {
     color: #9D47BF;
     margin-bottom: 0.3em;
 }
@@ -163,13 +164,36 @@ ul li::before {
 }
 
 .education-logo {
-    max-width: 100px;   /* Ajustez la taille du logo à vos besoins */
+    max-width: 100px;
     height: auto;
     object-fit: contain;
-    margin-right: 1em;  /* Espacement entre le logo et les informations */
-    border-radius: 5px; /* Facultatif pour arrondir les coins du logo */
+    margin-right: 1em;
+    border-radius: 5px;
 }
 
 .education-info {
     flex-grow: 1;
+}
+
+.language-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: white;
+    color: #9D47BF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 1em;
+    transition: background 0.3s, color 0.3s;
+}
+
+.language-button:hover {
+    background: #7c39a1;
+    color: white;
+}
+
+.language-switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
