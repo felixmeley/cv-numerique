@@ -5,15 +5,6 @@
     font-style: normal;
 }
 
-h1 {
-    font-family: 'Hashtag', sans-serif;
-}
-
-h2 {
-    font-family: 'Hashtag', sans-serif;
-    font-size: 2em;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -35,8 +26,8 @@ header {
 }
 
 .header-content h1 {
-    font-size: 4em;
-    margin-bottom: 0.2em;
+    font-family: 'Hashtag', sans-serif;
+    font-size: 5em;
 }
 
 .header-content p {
