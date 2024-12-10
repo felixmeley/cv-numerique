@@ -49,12 +49,6 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5em 0;
-    margin-top: 2em;
-}
-
-footer p {
-    margin: 0.5em 0;
-    font-size: 1.1em;
 }
 
 footer a {
@@ -70,12 +64,11 @@ footer a:hover {
     display: flex;
     justify-content: center;
     gap: 1em;
-    margin-top: 1em;
 }
 
 .contact-buttons a {
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 0.7em 0.75em 0.3em 0.75em;
     background: white;
     color: #9D47BF;
     border-radius: 5px;
@@ -84,13 +77,15 @@ footer a:hover {
 }
 
 .contact-buttons a img {
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .contact-buttons a:hover img {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 main {
@@ -138,7 +133,7 @@ ul li::before {
     line-height: 1.5;
 }
 
-.item_box {
+.item-box {
     display: flex;
     align-items: flex-start;
     background: #fff;
@@ -147,6 +142,10 @@ ul li::before {
     margin-bottom: 1em;
     border-radius: 5px;
     gap: 1em;
+}
+
+.item-box:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 
 .project-image {
@@ -161,8 +160,4 @@ ul li::before {
 
 .project-text {
     flex-grow: 1;
-}
-
-.item_box:nth-child(odd) {
-    flex-direction: row-reverse;
 }
