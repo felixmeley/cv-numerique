@@ -43,15 +43,22 @@ footer {
     padding: 1.5em 0;
 }
 
+footer p {
+    margin-top: 10px;
+}
+
 footer a {
     color: #f4f4f9;
     text-decoration: none;
     transition: color 0.3s, background 0.3s;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
 }
 
 footer a:hover {
     background: #f4f4f9;
     color: #9D47BF;
+    border-radius: 5px;
 }
 
 .contact-buttons {
