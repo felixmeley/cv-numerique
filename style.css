@@ -216,6 +216,15 @@ h3 {
     color: #4CAF50;
 }
 
+.stopped-project {
+    border-left: 5px solid #3f3f3f;
+    background-color: #ffffff;
+}
+
+.stopped-project a {
+    color: #3f3f3f;
+}
+
 .past-project {
     border-left: 5px solid #9D47BF;
     background-color: #f9f4ff;
