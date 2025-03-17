@@ -274,3 +274,19 @@ h3 {
     margin-top: 12px;
     width: 1px;
 }
+
+.tag-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    background-color: #cacaca;
+    color: #000000;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
