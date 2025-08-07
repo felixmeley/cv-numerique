@@ -290,3 +290,8 @@ h3 {
     font-size: 14px;
     font-weight: bold;
 }
+
+.project-logos {
+    display: flex;
+    gap: 10px;
+}
